@@ -1,14 +1,29 @@
 # glastoselenium
 
-A script/package I used to book Glastonbury tickets in 2019 using selenium.
+### A python bot for booking glasto tickets
 
-It can refresh quicker than any human.
+<b>UPDATE March, 2022: I am getting a lot of emails about this recently, hence this update.
+I no longer have time nor interest in maintaining this any longer, it is too hard to test, given that I never really know what the website will look like until the sale.
+In addition the interest in tickets is just too high, and getting through to the site, even with multiple bots and machines, is just too damn hard and not worth the hassle.
+While I still believe that Glastonbury is one of the greatest festivals on the planet, I have been enough times in my life to now let it pass.
+I will leave the code here for those interested but I am no longer confident it will get the job done. Good luck!</b>
 
-NOTE: I have attempted to adapt this for 2020. It appears as though the html and format will remain unchanged, but sadly I can 
-only test it live. I recommend starting with the script 'glasto2020.py'. Add your registration details and give it a go.
-It may automatically submit your registration details but again it may not. Also the urls are speculative, based on last year.
+[![GitHub forks](https://img.shields.io/github/forks/thomasms/glastoselenium)](https://github.com/thomasms/glastoselenium/network)
+[![GitHub stars](https://img.shields.io/github/stars/thomasms/glastoselenium)](https://github.com/thomasms/glastoselenium/stargazers)
+[![GitHub license](https://img.shields.io/github/license/thomasms/glastoselenium)](https://github.com/thomasms/glastoselenium/blob/master/LICENSE)
+[![HitCount](http://hits.dwyl.com/thomasms/glastoselenium.svg)](http://hits.dwyl.com/thomasms/glastoselenium)
 
-It usually requires a bit of tunning, but it works every time.
+A script/package I used to book Glastonbury tickets in 2019 and 2020 using selenium.
+
+It can refresh quicker than any human, and automatically fills in registration details to avoid any mistakes or delays.
+
+The below plot shows the reason why. Demand for tickets has gone mad recently, and it is only expected to get worse for future years.
+
+![Figure of sellout times](https://github.com/thomasms/glastoselenium/blob/master/figures/sellout_times.png?raw=true)
+
+The script usually requires a bit of tunning beforehand, but it works every time (for me anyway).
+
+The end goal is to have a completely headless bot that can do everything automatically!!! We are not there yet, but hopefully will be soon.
 
 Try:
 ```bash
